@@ -1,4 +1,6 @@
-print("Hello, World!")
-
-for nama in range(10):
-    print("Dhamar Ganteng!")
+class Siswa():
+    def __init__(self, nama):
+        self.nama = nama
+    
+    def sapa(self):
+        print(f"Hallo! nama saya {self.nama}")
