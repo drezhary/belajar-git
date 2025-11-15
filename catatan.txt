@@ -1,0 +1,46 @@
+VCS (Version Control System)
+adalah alat untuk mencatat semua perubahan pada kode/program sehingga kita bisa melihat versi sebelumnya,
+membatalkan kesalahan, dan bekerja bareng tim tanpa rebutan file.
+
+Hidup sebelum hadirnya VCS
+-> Menyimpan file : project.php
+                    project_fix.php
+                    project_fix_final.php
+                    project_fix_final_revisi.php
+                    project_fix_final_revisi_beneran.php
+                    project_fix_final_revisi_beneran.final2.php
+
+-> Simpan perubahan secara manual di perangkat yang sama
+
+-> Kalau terjadi kesalahan dan kode yang lama tidak disimpan = karir berakhir
+
+Dengan VCS :
+-> Semua perubahan terekam
+-> Bisa menelusuri siapa yang melakukan perubahan dan kapan perubahan terjadi.
+-> Aman dari hilang file
+-> Bisa kerja bareng tanpa tabrakan
+
+Macam-macam VCS :
+1. Git -> raja vcs, cepat, lokal
+2. Subversion (SVN) -> Banyak dipakai diperusahaan jadul
+3. Mercurial -> Mirip Git, tapi tidak sepopuler Git
+4. Perforce -> VCS khusus untuk project game besar.
+
+Git x Github
+Git : komputer lokal
+Github : Website aplikasi untuk menyimpan repository dan semua fitur dalam Git bisa kita gunakan di Github
+
+
+Istilah - istilah penting dalam Git
+
+Repository (Repo) -> Folder project yang dikelola oleh Git
+    -> Local Repo
+    -> Remote Repo -> di komputer server yang perlu diakses menggunakan internet contohnya Github
+
+Git Init (initialization) -> Menginisialisasi folder menjadi project yang dikelola oleh Git
+
+Stage / Staging Area
+Tempat menampung file yang nantinya akan di commit
+
+Commit 
+Melakukan perekaman perubahan
